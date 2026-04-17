@@ -1,4 +1,4 @@
-.sample2{
+/* .sample2{
     width: 100%;
     margin: 0 auto;
 }
@@ -17,4 +17,42 @@
 
 .image{
     align-items: center;
+} */
+
+*{
+	margin: 0;
+	padding: 0;
+}
+
+/* 반응형일 때 가장 기본적인 작업! */
+.container{
+    width: 100%;
+    max-width: 1440px;
+    margin: 0 auto;
+}
+
+.row{
+    display: flex;
+    gap: 20px;
+}
+
+.col-6{
+    color: black;
+    width: 50%;
+    height: 400px;
+    display: flex;
+    align-items: flex-end;
+    justify-content: center;
+}
+
+.text-content{
+    margin-bottom: 40px;
+}
+
+.bg-1{
+    background-image: url(../assets/images/space1.png);
+}
+
+.bf-2{
+    background-image: url(../assets/images/space2.png);
 }
