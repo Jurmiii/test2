@@ -1,0 +1,20 @@
+.sample2{
+    width: 100%;
+    margin: 0 auto;
+}
+
+.sam-wrap{
+    max-width: 1440px;
+    padding: 130px 300px;
+    display: flex;
+}
+
+.sam-content{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+.image{
+    align-items: center;
+}
